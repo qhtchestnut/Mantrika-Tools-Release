@@ -5,4 +5,4 @@
   [win64          ] reaper_MantrikaTools-x64.dll      https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.1-beta/reaper_MantrikaTools-x64.dll
 @changelog
   v0.0.1-beta (2025-06-24)
-  + Initial beta release
+  + Initial beta release-hope like
