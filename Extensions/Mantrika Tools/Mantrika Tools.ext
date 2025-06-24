@@ -1,8 +1,8 @@
 @description Mantrika Tools for REAPER
-@version 0.0.1-beta
+@version 0.0.2-beta
 @author Mantrika Sound
 @provides
   [win64          ] reaper_MantrikaTools-x64.dll      https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v$version/$path
 @changelog
-  v0.0.1-beta (2025-06-24)
+  v0.0.2-beta (2025-06-24)
   + Initial beta release-hope like
