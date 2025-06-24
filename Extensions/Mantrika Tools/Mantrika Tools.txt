@@ -1,0 +1,21 @@
+/*
+@description Mantrika Tools for REAPER
+@author Mantrika Sound
+@version 0.0.1-beta
+@metapackage true
+@provides
+  [windows x64] https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.1-beta/reaper_MantrikaTools-x64.dll
+@about
+  # Mantrika Tools for REAPER
+  
+  A collection of powerful and workflow-enhancing extension tools for REAPER, developed by Mantrika Sound.
+  
+  ## Features
+  powerfull reaper extension
+  
+  ## Installation
+  This extension will be automatically installed through ReaPack.
+@changelog
+  v0.0.1-beta (2025-06-24)
+  + Initial beta release
+*/
