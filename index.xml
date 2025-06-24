@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mantrika Tools for REAPER" commit="d442b829991c61e640cc4cbc1543f45175216f53">
+<index version="1" name="Mantrika Tools for REAPER" commit="1edef3717287089a10bd8375f3193d28b3ac4aa4">
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       <version name="0.0.1-beta" author="Mantrika Sound" time="2025-06-24T15:40:25Z">
         <changelog><![CDATA[v0.0.1-beta (2025-06-24)
 + Initial beta release-hope like]]></changelog>
         <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.1-beta/reaper_MantrikaTools-x64.dll</source>
+      </version>
+      <version name="0.0.2-beta" author="Mantrika Sound" time="2025-06-24T18:39:01Z">
+        <changelog><![CDATA[v0.0.2-beta (2025-06-24)
++ Initial beta release-hope like]]></changelog>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.2-beta/reaper_MantrikaTools-x64.dll</source>
       </version>
     </reapack>
   </category>
