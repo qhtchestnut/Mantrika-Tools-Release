@@ -14,4 +14,4 @@ If you encounter any bugs, have a feature request, or need support, please feel 
 
 ---
 
-Developed by Mantrika Sound.
+Developed by Mantrika.
