@@ -19,37 +19,15 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Mantrika Tools for REAPER\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A collection of powerful and workflow-enhancing extension tools for REAPER, developed by Mantrika Sound. This repository serves as the official ReaPack source for easy installation and automatic updates.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 About This Repository\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This repository is built using the standard ReaPack repository template. It is managed via GitHub Actions to automatically index and publish new versions of the {\b Mantrika Tools} extension.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The content of this README file is what you see when using the "About this repository" feature inside ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Features\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Advanced Audio Processing:}\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Workflow Optimization:}\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Custom UI Elements:}\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\i (More features coming soon!)}\par}
-{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 How to Install\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 To install Mantrika Tools, you must have the {\field{\*\fldinst{HYPERLINK "https://reapack.com/"}}{\fldrslt{\ul
-ReaPack
-}}}
- extension installed in your REAPER.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab Open REAPER.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 2.\tx360\tab Go to the main menu and select: {\f1 Extensions} > {\f1 ReaPack} > {\f1 Import repositories...}.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 3.\tx360\tab In the pop-up window, paste the following URL into the address field:\par}
-{\pard \ql \f0 \sa180 \li360 \fi0 \f1 https://github.com/qhtchestnut/Mantrika-Tools-Release/raw/master/index.xml\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 4.\tx360\tab Click {\f1 OK}. ReaPack will synchronize with the repository.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 5.\tx360\tab You will be prompted to install the {\f1 Mantrika Tools} package. Click {\f1 Apply} or {\f1 OK} to proceed with the installation.\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Usage\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 After a successful installation, it's recommended to restart REAPER.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 You can then find the tools provided by this extension in the {\f1 Extensions} menu, or by searching for their actions in the Action List.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Mantrika Tools\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u9888 ?\u65039 ? Authorization requirements\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This plugin is for internal testing only. You will need to enter your authorization information upon first launch. Unauthorized use is prohibited.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Support and Feedback\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 If you encounter any bugs, have a feature request, or need support, please feel free to:\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Open an issue on this GitHub repository.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Contact me via email at {\f1 qht.chestnut@gmail.com}.\sa180\par}
 {\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mantrika Sound.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mantrika.\par}
 }
 ]]></description>
   </metadata>
