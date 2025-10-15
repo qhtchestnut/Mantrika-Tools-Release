@@ -25,9 +25,9 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 This repository is built using the standard ReaPack repository template. It is managed via GitHub Actions to automatically index and publish new versions of the {\b Mantrika Tools} extension.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 The content of this README file is what you see when using the "About this repository" feature inside ReaPack.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Features\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Advanced Audio Processing:} [Briefly describe a key feature, e.g., "A unique spectral shaping tool."]\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Workflow Optimization:} [Briefly describe another feature, e.g., "Actions to streamline item editing and arrangement."]\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Custom UI Elements:} [Mention if you have any GUI-based tools.]\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Advanced Audio Processing:}\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Workflow Optimization:}\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Custom UI Elements:}\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\i (More features coming soon!)}\par}
 {\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 How to Install\par}
