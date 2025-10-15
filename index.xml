@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mantrika Tools for REAPER" commit="1edef3717287089a10bd8375f3193d28b3ac4aa4">
+<index version="1" name="Mantrika Tools for REAPER">
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
-      <version name="0.0.1-beta" author="Mantrika Sound" time="2025-06-24T15:40:25Z">
-        <changelog><![CDATA[v0.0.1-beta (2025-06-24)
-+ Initial beta release-hope like]]></changelog>
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.1-beta/reaper_MantrikaTools-x64.dll</source>
+      
+      <!-- 测试版本：只包含 Windows -->
+      <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
+        <changelog><![CDATA[v0.0.3-beta (2025-10-17)
++ Test: Added Slint runtime library distribution
++ Windows x64 only]]></changelog>
+        
+        <!-- Windows 主插件 -->
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">
+https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/reaper_MantrikaTools-x64.dll</source>
+        
+        <!-- Windows Slint 运行时库 -->
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">
+https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
       </version>
-      <version name="0.0.2-beta" author="Mantrika Sound" time="2025-06-24T18:39:01Z">
-        <changelog><![CDATA[v0.0.2-beta (2025-06-24)
-+ Initial beta release-hope like]]></changelog>
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.2-beta/reaper_MantrikaTools-x64.dll</source>
-      </version>
+      
     </reapack>
   </category>
+  
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Mantrika Tools\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u9888 ?\u65039 ? Authorization requirements\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This plugin is for internal testing only. You will need to enter your authorization information upon first launch. Unauthorized use is prohibited.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Support and Feedback\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 If you encounter any bugs, have a feature request, or need support, please feel free to:\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Open an issue on this GitHub repository.\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Contact me via email at {\f1 qht.chestnut@gmail.com}.\sa180\par}
-{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mantrika.\par}
-}
-]]></description>
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Mantrika Tools for REAPER\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 \u9888?\u65039? Authorization Required\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Internal testing only. First launch requires department password.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Contact:\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 qht.chestnut@gmail.com\par}
+}]]></description>
   </metadata>
 </index>
