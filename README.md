@@ -1,6 +1,6 @@
 # Mantrika Tools
 
-## ⚠️ 授权要求
+## ⚠️ Authorization requirements
    
 This plugin is for internal testing only. You will need to enter your authorization information upon first launch.
 Unauthorized use is prohibited.
