@@ -10,9 +10,9 @@ The content of this README file is what you see when using the "About this repos
 
 ## Features
 
-* **Advanced Audio Processing:** [Briefly describe a key feature, e.g., "A unique spectral shaping tool."]
-* **Workflow Optimization:** [Briefly describe another feature, e.g., "Actions to streamline item editing and arrangement."]
-* **Custom UI Elements:** [Mention if you have any GUI-based tools.]
+* **Advanced Audio Processing:**
+* **Workflow Optimization:**
+* **Custom UI Elements:**
 
 *(More features coming soon!)*
 
