@@ -5,11 +5,9 @@
       
       <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
         <changelog><![CDATA[v0.0.3-beta (2025-10-17)
-+ Test: Added Slint runtime library distribution
-+ Windows x64 only]]></changelog>
++ Test: Slint runtime library distribution only]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/reaper_MantrikaTools-x64.dll</source>
-        
+        <!-- 只保留运行时库 -->
         <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
       </version>
       
@@ -18,11 +16,8 @@
   
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Mantrika Tools for REAPER\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 \u9888?\u65039? Authorization Required\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Internal testing only. First launch requires department password.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b Contact:\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 qht.chestnut@gmail.com\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Mantrika Tools - Runtime Test\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Testing Slint runtime library distribution only.\par}
 }]]></description>
   </metadata>
 </index>
