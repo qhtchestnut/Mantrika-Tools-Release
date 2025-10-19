@@ -3,14 +3,11 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.0.5.01-beta" author="Mantrika Sound" time="2025-10-16T00:00:00Z">
-        <changelog><![CDATA[v0.0.5.01-beta (2025-10-16)
-+ Fixed: Legacy license format migration now works correctly
-+ Fixed: Device fingerprint validation after migration
-+ Fixed: Users will no longer be asked to re-authorize after migration
-+ Improved: Auto-submit new device fingerprint to GitHub during migration]]></changelog>
+      <version name="0.0.5.02-beta" author="Mantrika Sound" time="2025-10-20T00:00:00Z">
+        <changelog><![CDATA[v0.0.5.02-beta (2025-10-20)
++ 填写你的更新内容]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.01-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.02-beta/reaper_MantrikaTools-x64.dll</source>
         
         <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
       </version>
