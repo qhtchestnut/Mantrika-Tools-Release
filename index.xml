@@ -14,25 +14,9 @@
                 <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.03-beta/reaper_MantrikaTools-x64.dll</source>
         
                 <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
-      </version>
-      
-            <version name="0.0.5.02-beta" author="Mantrika Sound" time="2025-10-20T00:00:00Z">
-        <changelog><![CDATA[v0.0.5.02-beta (2025-10-20)
-+ New feature: Added "under mouse" series of actions
-+ New feature: Added general toggle action
-+ New feature: Create regions based on item name with smart filtering of file extensions/suffixes
-+ New feature: Mirror takeover mechanism - mirrors will take over manually created and marked regions
-+ New feature: Smart key assignment to solo item or track
-+ Fixed: Various known issues
-! Note: Full regression testing not yet completed
+      </version>      
 
---Mantrika Team]]></changelog>
-        
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.02-beta/reaper_MantrikaTools-x64.dll</source>
-        
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
-      </version>
-      
+          
             <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
         <changelog><![CDATA[v0.0.3-beta (2025-10-17)
 + Test: Added Slint runtime library distribution
