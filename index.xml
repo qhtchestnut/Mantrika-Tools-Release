@@ -3,21 +3,20 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-            <version name="0.0.5.03-beta" author="Mantrika Sound" time="2025-10-27T00:00:00Z">
-        <changelog><![CDATA[v0.0.5.03-beta (2025-10-27)
-+ New feature: Added Subproject functionality
-+ Fix: Optimized and fixed issues related to ProScan, ProjectManager, Render, and Radial Menu
-! Note: We haven't had time to perform a full regression test yet
+            <version name="0.0.5.05-beta" author="Mantrika Sound" time="2025-11-03T00:00:00Z">
+        <changelog><![CDATA[v0.0.5.05-beta (2025-11-03)
++ Added a lot of new functions. Please read the document.
+! Note: We haven't had time to perform a full regression test yet.
 
 --Mantrika Team]]></changelog>
         
-                <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.03-beta/reaper_MantrikaTools-x64.dll</source>
+                <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.05-beta/reaper_MantrikaTools-x64.dll</source>
         
                 <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
-      </version>      
-
-          
-            <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
+      </version>
+      
+            
+            <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
         <changelog><![CDATA[v0.0.3-beta (2025-10-17)
 + Test: Added Slint runtime library distribution
 + Windows x64 only]]></changelog>
