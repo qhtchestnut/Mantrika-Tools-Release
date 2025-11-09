@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="Mantrika Tools for REAPER">
-  <category name="Extensions/Mantrika Tools">
-    <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
-      
-            <version name="0.0.5.05-beta" author="Mantrika Sound" time="2025-11-03T00:00:00Z">
-        <changelog><![CDATA[v0.0.5.05-beta (2025-11-03)
-+ Added a lot of new functions. Please read the document.
-! Note: We haven't had time to perform a full regression test yet.
-
+  <category name="Extensions/Mantrika Tools">
+    <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
+      
+      <version name="0.0.5.06-beta" author="Mantrika Sound" time="2025-11-10T00:00:00Z">
+        <changelog><![CDATA[v0.0.5.06-beta (2025-11-10)
++ Added UCS naming support to Rename Tool
++ Various detail improvements
+! Note: Not fully tested yet
 --Mantrika Team]]></changelog>
-        
-                <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.05-beta/reaper_MantrikaTools-x64.dll</source>
-        
-                <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
-      </version>
-      
-            
-            <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
-        <changelog><![CDATA[v0.0.3-beta (2025-10-17)
+        
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.06-beta/reaper_MantrikaTools-x64.dll</source>
+        
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
+        
+        <source platform="win64" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.06-beta/UCS_Data.json</source>
+      </version>
+      
+      <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
+        <changelog><![CDATA[v0.0.3-beta (2025-10-17)
 + Test: Added Slint runtime library distribution
 + Windows x64 only]]></changelog>
-        
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/reaper_MantrikaTools-x64.dll</source>
-        
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
-      </version>
-      
-    </reapack>
-  </category>
-  
-  <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
+        
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/reaper_MantrikaTools-x64.dll</source>
+        
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
+      </version>
+      
+    </reapack>
+  </category>
+  
+  <metadata>
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Mantrika Tools for REAPER\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 \u9888?\u65039? Authorization Required\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Internal testing only. First launch requires department password.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b Contact:\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 qht.chestnut@gmail.com\par}
 }]]></description>
-  </metadata>
+  </metadata>
 </index>
