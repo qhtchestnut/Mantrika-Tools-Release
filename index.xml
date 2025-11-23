@@ -3,28 +3,23 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.0.5.06-beta" author="Mantrika Sound" time="2025-11-10T00:00:00Z">
-        <changelog><![CDATA[v0.0.5.06-beta (2025-11-10)
-+ Added UCS naming support to Rename Tool
-+ Various detail improvements
-! Note: Not fully tested yet
+      <version name="0.0.6-beta" author="Mantrika Sound" time="2025-11-23T00:00:00Z">
+        <changelog><![CDATA[v0.0.6-beta (2025-11-23)
++ Added Synergy Sample Broker integration
+  - JSFX effect for sample playback
+  - Lua bridge script for automation
++ Various improvements and bug fixes
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.06-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.6-beta/reaper_MantrikaTools-x64.dll</source>
         
         <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
         
-        <source platform="win64" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/UCS_Data.json</source>
-      </version>
-      
-      <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
-        <changelog><![CDATA[v0.0.3-beta (2025-10-17)
-+ Test: Added Slint runtime library distribution
-+ Windows x64 only]]></changelog>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/UCS_Data.json</source>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="all" file="MantrikaTools Config/script/mantrika - Synergy - SampleBroker Lua Bridge.lua">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika - Synergy - SampleBroker Lua Bridge.lua</source>
         
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
+        <source platform="all" file="Effects/MantrikaTools JSFX/mantrika_Synergy_SampleBroker.jsfx">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
       </version>
       
     </reapack>
