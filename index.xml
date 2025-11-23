@@ -17,7 +17,7 @@
         
         <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/UCS_Data.json</source>
         
-        <source platform="all" file="MantrikaTools Config/script/mantrika - Synergy - SampleBroker Lua Bridge.lua">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika - Synergy - SampleBroker Lua Bridge.lua</source>
+        <source platform="all" file="MantrikaTools Config/script/mantrika_Synergy_SampleBroker_Lua_Bridge.lua">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker_Lua_Bridge.lua</source>
         
         <source platform="all" file="Effects/MantrikaTools JSFX/mantrika_Synergy_SampleBroker.jsfx">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
       </version>
