@@ -12,9 +12,9 @@
         
         <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.06-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
         
-        <source platform="win64" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.5.06-beta/UCS_Data.json</source>
+        <source platform="win64" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/UCS_Data.json</source>
       </version>
       
       <version name="0.0.3-beta" author="Mantrika Sound" time="2025-10-17T00:00:00Z">
@@ -24,7 +24,7 @@
         
         <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.3-beta/slint_cpp.dll</source>
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
       </version>
       
     </reapack>
@@ -33,7 +33,7 @@
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Mantrika Tools for REAPER\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 \u9888?\u65039? Authorization Required\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Authorization Required\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Internal testing only. First launch requires department password.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b Contact:\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 qht.chestnut@gmail.com\par}
