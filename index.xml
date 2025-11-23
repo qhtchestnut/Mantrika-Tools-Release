@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="Mantrika Tools for REAPER">
   <category name="Extensions/Mantrika Tools">
+    
+    <!-- Extension Package: DLL + Runtime + Config + Lua Script -->
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
-      
       <version name="0.0.6-beta" author="Mantrika Sound" time="2025-11-23T00:00:00Z">
         <changelog><![CDATA[v0.0.6-beta (2025-11-23)
 + Added Synergy Sample Broker integration
@@ -18,11 +19,22 @@
         <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/UCS_Data.json</source>
         
         <source platform="all" file="MantrikaTools Config/script/mantrika_Synergy_SampleBroker_Lua_Bridge.lua">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker_Lua_Bridge.lua</source>
-        
-        <source platform="all" type="effect" file="MantrikaTools JSFX/mantrika_Synergy_SampleBroker.jsfx">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
       </version>
-      
     </reapack>
+    
+    <!-- JSFX Effect Package: Version follows main extension -->
+    <reapack name="Mantrika Synergy SampleBroker.jsfx" type="effect" desc="Mantrika Synergy Sample Broker (JSFX)">
+      <version name="0.0.6-beta" author="Mantrika Sound" time="2025-11-23T00:00:00Z">
+        <changelog><![CDATA[v0.0.6-beta (2025-11-23)
++ Added with Mantrika Tools v0.0.6-beta
++ Sample playback integration
++ Resources from resources-v1
+--Mantrika Team]]></changelog>
+        
+        <source platform="all" file="MantrikaTools JSFX/mantrika_Synergy_SampleBroker.jsfx">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
+      </version>
+    </reapack>
+    
   </category>
   
   <metadata>
