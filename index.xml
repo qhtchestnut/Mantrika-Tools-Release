@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="Mantrika Tools for REAPER">
   
-  <!-- Extension Package: Main DLL and Config Files -->
+  <!-- Extension Package -->
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
@@ -23,9 +23,9 @@
     </reapack>
   </category>
   
-  <!-- JSFX Package: Separate Effect -->
+  <!-- JSFX Package - Independent Effect -->
   <category name="MantrikaTools JSFX">
-    <reapack name="Synergy Sample Broker" type="effect" desc="Synergy Sample Broker JSFX">
+    <reapack name="mantrika_Synergy_SampleBroker.jsfx" type="effect" desc="Synergy Sample Broker JSFX">
       
       <version name="1.0.0" author="Mantrika Sound" time="2025-11-23T00:00:00Z">
         <changelog><![CDATA[v1.0.0 (2025-11-23)
@@ -33,7 +33,7 @@
 + Sample playback integration
 --Mantrika Team]]></changelog>
         
-        <source platform="all" file="mantrika_Synergy_SampleBroker.jsfx">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
+        <source platform="all">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
       </version>
       
     </reapack>
