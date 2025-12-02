@@ -4,15 +4,13 @@
   <!-- Extension Package -->
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
-      <version name="0.0.6-beta" author="Mantrika Sound" time="2025-11-23T00:00:00Z">
-        <changelog><![CDATA[v0.0.6-beta (2025-11-23)
-+ Added Synergy Sample Broker integration
-  - JSFX effect for sample playback
-  - Lua bridge script for automation
-+ Various improvements and bug fixes
+      <version name="0.0.7-beta" author="Mantrika Sound" time="2025-12-03T00:00:00Z">
+        <changelog><![CDATA[v0.0.7-beta (2025-12-03)
++ Fixed crash issues in main DLL
++ VC++ runtime is now self-contained
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.6-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.7-beta/reaper_MantrikaTools-x64.dll</source>
         
         <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
         
@@ -26,11 +24,9 @@
   <!-- JSFX Package -->
   <category name="Mantrika Tools JSFX">
     <reapack name="Mantrika Tools JSFX" type="effect" desc="Mantrika Synergy Sample Broker (JSFX)">
-      <version name="0.0.6-beta" author="Mantrika Sound" time="2025-11-23T00:00:00Z">
-        <changelog><![CDATA[v0.0.6-beta (2025-11-23)
-+ Added with Mantrika Tools v0.0.6-beta
-+ Sample playback integration
-+ Resources from resources-v1
+      <version name="0.0.7-beta" author="Mantrika Sound" time="2025-12-03T00:00:00Z">
+        <changelog><![CDATA[v0.0.7-beta (2025-12-03)
++ Version sync with main extension
 --Mantrika Team]]></changelog>
         
         <source platform="all" file="mantrika_Synergy_SampleBroker.jsfx">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
