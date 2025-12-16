@@ -4,14 +4,15 @@
   <!-- Extension Package -->
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
-      
-      <!-- 最新版本 -->
-      <version name="0.0.7.3-beta" author="Mantrika Sound" time="2025-12-16T00:00:00Z">
-        <changelog><![CDATA[v0.0.7.3-beta (2025-12-16)
-+ Security: Comprehensive security optimizations
+      <version name="0.0.7.4-beta" author="Mantrika Sound" time="2025-12-17T00:00:00Z">
+        <changelog><![CDATA[v0.0.7.4-beta (2025-12-17)
++ Security: Fixed buffer overflow risks in all text reading operations
++ Fixed: Render Queue path display truncation issue
++ New: Basic regex filter support in FX Search
++ Too much coffee was consumed ~
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.7.3-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.7.4-beta/reaper_MantrikaTools-x64.dll</source>
         
         <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
         
@@ -19,27 +20,6 @@
         
         <source platform="all" file="MantrikaTools Config/script/mantrika_Synergy_SampleBroker_Lua_Bridge.lua">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker_Lua_Bridge.lua</source>
       </version>
-      
-      <!-- 旧版本（允许回退） -->
-      <version name="0.0.7.2-beta" author="Mantrika Sound" time="2025-12-15T00:00:00Z">
-        <changelog><![CDATA[v0.0.7.2-beta (2025-12-15)
-+ UI: Improved IME candidate window positioning for text input
-+ Performance: Mirror workflow optimized (4x faster)
-+ Performance: Linked selection optimized (2x faster)
-+ New action: Create zero-crossing loop points
-+ Render Queue: Enhanced path handling and wildcard support
-+ Rename Tool: Comprehensive UCS feature enhancements
---Mantrika Team]]></changelog>
-        
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.7.2-beta/reaper_MantrikaTools-x64.dll</source>
-        
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
-        
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/UCS_Data.json</source>
-        
-        <source platform="all" file="MantrikaTools Config/script/mantrika_Synergy_SampleBroker_Lua_Bridge.lua">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker_Lua_Bridge.lua</source>
-      </version>
-      
     </reapack>
   </category>
   
