@@ -4,34 +4,20 @@
   <!-- Extension Package -->
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
-      <version name="0.0.7.4-beta" author="Mantrika Sound" time="2025-12-17T00:00:00Z">
-        <changelog><![CDATA[v0.0.7.4-beta (2025-12-17)
-+ Security: Fixed buffer overflow risks in all text reading operations
-+ Fixed: Render Queue path display truncation issue
-+ New: Basic regex filter support in FX Search
-+ Too much coffee was consumed ~
+      <version name="0.0.7.5-beta" author="Mantrika Sound" time="2025-12-19T00:00:00Z">
+        <changelog><![CDATA[v0.0.7.5-beta (2025-12-19)
++ SampleBroker: Migrated to CLAP format for better performance
++ SampleBroker: Improved waveform rendering with GPU-friendly RMS visualization
++ UI: Upgraded to 60fps refresh rate
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.7.4-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.7.5-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/slint_cpp.dll</source>
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v2/slint_cpp.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v2/UCS_Data.json</source>
         
-        <source platform="all" file="MantrikaTools Config/script/mantrika_Synergy_SampleBroker_Lua_Bridge.lua">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker_Lua_Bridge.lua</source>
-      </version>
-    </reapack>
-  </category>
-  
-  <!-- JSFX Package -->
-  <category name="Mantrika Tools JSFX">
-    <reapack name="Mantrika Tools JSFX" type="effect" desc="Mantrika Synergy Sample Broker (JSFX)">
-      <version name="0.0.7-beta" author="Mantrika Sound" time="2025-12-03T00:00:00Z">
-        <changelog><![CDATA[v0.0.7-beta (2025-12-03)
-+ Version sync with main extension
---Mantrika Team]]></changelog>
-        
-        <source platform="all" file="mantrika_Synergy_SampleBroker.jsfx">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v1/mantrika_Synergy_SampleBroker.jsfx</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v2/mantrika_sample_broker.clap</source>
       </version>
     </reapack>
   </category>
