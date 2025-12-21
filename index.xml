@@ -4,6 +4,25 @@
   <!-- Extension Package -->
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
+      
+      <version name="0.0.8-beta" author="Mantrika Sound" time="2025-12-22T00:00:00Z">
+        <changelog><![CDATA[v0.0.8-beta (2025-12-22)
++ Added global drag-and-drop hint text
++ Fixed timer idle-running bug
++ Render: Added wildcard separator line
++ Added action to skip auto-transient detection
++ Major upgrade to Chaos feature
+--Mantrika Team]]></changelog>
+        
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8-beta/reaper_MantrikaTools-x64.dll</source>
+        
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v2/slint_cpp.dll</source>
+        
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v2/UCS_Data.json</source>
+        
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v2/mantrika_sample_broker.clap</source>
+      </version>
+      
       <version name="0.0.7.5-beta" author="Mantrika Sound" time="2025-12-19T00:00:00Z">
         <changelog><![CDATA[v0.0.7.5-beta (2025-12-19)
 + SampleBroker: Migrated to CLAP format for better performance
@@ -19,6 +38,7 @@
         
         <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v2/mantrika_sample_broker.clap</source>
       </version>
+      
     </reapack>
   </category>
   
