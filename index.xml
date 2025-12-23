@@ -4,22 +4,23 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.0.8.1-beta" author="Mantrika Sound" time="2025-12-23T00:00:00Z">
-        <changelog><![CDATA[v0.0.8.1-beta (2025-12-23)
-+ Fixed visual noise issue in Mirror
-+ Fixed bug that unexpectedly cleared track names
-+ SampleBroker: Switched to native system context menu
-+ AutoTrackColor: Optimized track traversal performance
-+ FX Search: Improved UX, performance, and search algorithm
+      <version name="0.0.8.2-beta" author="Mantrika Sound" time="2025-12-24T00:00:00Z">
+        <changelog><![CDATA[v0.0.8.2-beta (2025-12-24)
++ FX Search: Optimized hack behavior
++ SampleBroker: Fixed data clearing bug caused by audio rendering; Fixed keyboard/mouse input conflict
++ Render Queue: Fixed config loss when switching project tabs
++ FX Search & Radial Menu: Added warning when batch-applying more than 5 FX
++ Full support for AND/OR/NOT search operators
++ Segment Switch: Algorithm fully upgraded
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.1-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.2-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v3/slint_cpp.dll</source>
+        <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v4/slint_cpp.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v3/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v4/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v3/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v4/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
