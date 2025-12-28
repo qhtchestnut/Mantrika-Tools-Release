@@ -4,13 +4,14 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.0.8.4-beta" author="Mantrika Sound" time="2025-12-26T00:00:00Z">
-        <changelog><![CDATA[v0.0.8.4-beta (2025-12-26)
-+ New: Ling sampler (development preview)
-+ Fixed and enhanced Render Queue project tab switching
+      <version name="0.0.8.5-beta" author="Mantrika Sound" time="2025-12-29T00:00:00Z">
+        <changelog><![CDATA[v0.0.8.5-beta (2025-12-29)
++ Major Chaos optimization
++ Ling sampler: now fully functional
++ Fixed ImGui underlying bugs
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.4-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.5-beta/reaper_MantrikaTools-x64.dll</source>
         
         <source platform="win64" file="MantrikaTools Config/runtime/slint_cpp.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v5/slint_cpp.dll</source>
         
