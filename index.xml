@@ -4,6 +4,21 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
+      <version name="0.0.8.6-beta" author="Mantrika Sound" time="2025-01-05T00:00:00Z">
+        <changelog><![CDATA[v0.0.8.6-beta (2025-01-05)
++ Removed Slint dependency; major UI framework upgrade
++ Extensive UI refactoring
++ RadialMenu: added theme colors
++ Ling: added MIDI support
+--Mantrika Team]]></changelog>
+        
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.6-beta/reaper_MantrikaTools-x64.dll</source>
+        
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v6/UCS_Data.json</source>
+        
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v6/mantrika_sample_broker.clap</source>
+      </version>
+      
       <version name="0.0.8.5-beta" author="Mantrika Sound" time="2025-12-29T00:00:00Z">
         <changelog><![CDATA[v0.0.8.5-beta (2025-12-29)
 + Major Chaos optimization
