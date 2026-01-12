@@ -5,7 +5,7 @@
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
       <version name="0.0.8.7-beta" author="Mantrika Sound" time="2025-01-12T00:00:00Z">
-        <changelog><![CDATA[v0.0.8.7-beta (2025-01-12)
+        <changelog><![CDATA[v0.0.8.7-beta (2026-01-12)
 + Render Queue: added drag & drop; improved Asset area display
 + Ling: complete UI overhaul
 + Project Manager: enhanced usability, bug fixes
