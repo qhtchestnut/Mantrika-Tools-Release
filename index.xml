@@ -4,19 +4,18 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.0.8.7-beta" author="Mantrika Sound" time="2026-01-12T00:00:00Z">
-        <changelog><![CDATA[v0.0.8.7-beta (2026-01-12)
-+ Render Queue: added drag & drop; improved Asset area display
-+ Ling: complete UI overhaul
-+ Project Manager: enhanced usability, bug fixes
-+ Chaos renamed to Qi, refactored
+      <version name="0.0.8.8-beta" author="Mantrika Sound" time="2026-01-20T00:00:00Z">
+        <changelog><![CDATA[v0.0.8.8-beta (2026-01-20)
++ Qi: Comprehensive performance and functionality optimizations
++ Sample Broker CLAP: Now includes self-contained C++ runtime
++ Render Queue: Improved drag-and-drop functionality
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.7-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.8-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v6/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v7/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v6/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v7/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
