@@ -4,14 +4,20 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.0.8.8-beta" author="Mantrika Sound" time="2026-01-20T00:00:00Z">
-        <changelog><![CDATA[v0.0.8.8-beta (2026-01-20)
-+ Qi: Comprehensive performance and functionality optimizations
-+ Sample Broker CLAP: Now includes self-contained C++ runtime
-+ Render Queue: Improved drag-and-drop functionality
+      <version name="0.0.8.9-beta" author="Mantrika Sound" time="2026-01-21T00:00:00Z">
+        <changelog><![CDATA[v0.0.8.9-beta (2026-01-21)
++ Qi: Muted items are now ignored
++ Qi: Preserves original fade-in/fade-out settings
++ Qi: All parameter randomization now relative to original item values
++ Qi: Preserves original envelopes when envelope mode is disabled
++ Qi: Pitch mode with Stretch enabled now affects spacing
++ Qi: All parameters reset after Generate
++ New action: Delete muted items (5 rule-based options)
++ Ling: Individual sample preview support
++ Ling: Improved dynamic slicing algorithm
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.8-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.0.8.9-beta/reaper_MantrikaTools-x64.dll</source>
         
         <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/resources-v7/UCS_Data.json</source>
         
