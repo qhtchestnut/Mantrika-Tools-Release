@@ -1,0 +1,104 @@
+name: Update ReaPack Index
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: master  # 确保在主分支上操作
+      
+      - name: Show release info
+        run: |
+          echo "========== Release Info =========="
+          echo "Tag: ${{ github.event.release.tag_name }}"
+          echo "Published at: ${{ github.event.release.published_at }}"
+          echo "========== Changelog =========="
+          echo "${{ github.event.release.body }}"
+          echo "================================="
+      
+      - name: Generate index.xml
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+          PUBLISHED_AT: ${{ github.event.release.published_at }}
+          CHANGELOG: ${{ github.event.release.body }}
+        run: |
+          # 版本号：去掉开头的v
+          VERSION="${TAG#v}"
+          echo "Version: $VERSION"
+          
+          # 时间：转换为ReaPack格式 (YYYY-MM-DDTHH:MM:SSZ)
+          TIME=$(echo "$PUBLISHED_AT" | cut -d'T' -f1)T00:00:00Z
+          echo "Time: $TIME"
+          
+          # 生成index.xml
+          cat > index.xml << 'XMLEOF'
+          <?xml version="1.0" encoding="utf-8"?>
+          <index version="1" name="Mantrika Tools for REAPER">
+            
+            <category name="Extensions/Mantrika Tools">
+              <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
+                
+                <version name="VERSION_PLACEHOLDER" author="Mantrika Sound" time="TIME_PLACEHOLDER">
+                  <changelog><![CDATA[CHANGELOG_PLACEHOLDER]]></changelog>
+                  
+                  <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/reaper_MantrikaTools-x64.dll</source>
+                  
+                  <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/UCS_Data.json</source>
+                  
+                  <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/mantrika_sample_broker.clap</source>
+                </version>
+                
+              </reapack>
+            </category>
+            
+            <metadata>
+              <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
+          {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Mantrika Tools for REAPER\par}
+          {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Authorization Required\par}
+          {\pard \ql \f0 \sa180 \li0 \fi0 Internal testing only. First launch requires department password.\par}
+          {\pard \ql \f0 \sa180 \li0 \fi0 \b Contact:\par}
+          {\pard \ql \f0 \sa180 \li0 \fi0 qht.chestnut@gmail.com\par}
+          }]]></description>
+            </metadata>
+          </index>
+          XMLEOF
+          
+          # 替换占位符
+          sed -i "s|VERSION_PLACEHOLDER|$VERSION|g" index.xml
+          sed -i "s|TIME_PLACEHOLDER|$TIME|g" index.xml
+          sed -i "s|TAG_PLACEHOLDER|$TAG|g" index.xml
+          
+          # changelog需要特殊处理（可能包含特殊字符）
+          # 使用awk来替换
+          awk -v changelog="$CHANGELOG" '{gsub(/CHANGELOG_PLACEHOLDER/, changelog); print}' index.xml > index.xml.tmp
+          mv index.xml.tmp index.xml
+          
+          echo "========== Generated index.xml =========="
+          cat index.xml
+          echo "=========================================="
+      
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add index.xml
+          
+          # 检查是否有变化
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Update index.xml for ${{ github.event.release.tag_name }}"
+          git push
+          
+          echo "========== Done =========="
+          echo "index.xml updated successfully!"
