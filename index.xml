@@ -4,22 +4,20 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.11-beta" author="Mantrika Sound" time="2026-01-25T00:00:00Z">
-        <changelog><![CDATA[Changelog v0.11-beta (2026.01.26) :
+      <version name="0.12-beta" author="Mantrika Sound" time="2026-01-26T00:00:00Z">
+        <changelog><![CDATA[Changelog v0.12-beta (2026.01.27) :
 
-+ New: Version update feature;
-+ New: Added Element Split function.
-+ Ling Sampler: Massive performance optimizations;
-+ Qi: Extensive enhancements.;
++ Element Split: Add HPSS
++ Project manager: Fix ui Bug;
 + FX Search: Optimize UI display;
 
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.11-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.12-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.11-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.12-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.11-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.12-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
