@@ -4,23 +4,19 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.13-beta" author="Mantrika Sound" time="2026-01-27T00:00:00Z">
-        <changelog><![CDATA[Mac Bug Fixes: Resolved various platform-specific bugs on macOS.
+      <version name="0.14-beta" author="Mantrika Sound" time="2026-01-28T00:00:00Z">
+        <changelog><![CDATA[Changelog v0.14-beta :
 
-fx search: Implemented window size memory and a borderless (frameless) window interface.
++ Element Split: Fix Path bug;
++ Qi: Extensive optimization;
 
-LfoManager: Fixed a critical crash issue within the LfoManager module.
-
-ProjectManager: Implemented persistence for Virtual Folders. Added a feature to automatically expand Virtual Folders when dragging .Rpp files over them.
-
---2026-01-28
 --Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.13-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.14-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.13-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.14-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.13-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.14-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
