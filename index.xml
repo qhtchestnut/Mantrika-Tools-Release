@@ -4,19 +4,20 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.14-beta" author="Mantrika Sound" time="2026-01-28T00:00:00Z">
-        <changelog><![CDATA[Changelog v0.14-beta :
+      <version name="0.15-beta" author="Mantrika Sound" time="2026-01-29T00:00:00Z">
+        <changelog><![CDATA[v0.15-beta :
 
-+ Element Split: Fix Path bug;
-+ Qi: Extensive optimization;
++ New features: Prune series Actions
++ Automatic updates: Added reinstallation and a progress bar
++ Qi: Numerous optimizations
 
---Mantrika Team]]></changelog>
+-- Mantrika Team]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.14-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.15-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.14-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.15-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.14-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.15-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
