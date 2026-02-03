@@ -4,18 +4,20 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.17-beta" author="Mantrika Sound" time="2026-02-03T00:00:00Z">
-        <changelog><![CDATA[v0.17-beta
-* Project manager: Optimized UI visual effects, added automatic refresh function;
-* Ling: Added waveform editing capabilities; prevented memory crashes;
-* Wwise Tool: Optimized layout and details.
--- Mantrika Team --2026.02.03]]></changelog>
+      <version name="0.18-beta" author="Mantrika Sound" time="2026-02-03T00:00:00Z">
+        <changelog><![CDATA[v0.18-beta
++ Optimization of Render
++ Optimization of Project
++ Optimization of Wwise
+
+-- Mantrika Team
+--2026.02.04]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.17-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.18-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.17-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.18-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.17-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.18-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
