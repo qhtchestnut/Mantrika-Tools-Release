@@ -4,20 +4,23 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.18-beta" author="Mantrika Sound" time="2026-02-03T00:00:00Z">
-        <changelog><![CDATA[v0.18-beta
-+ Optimization of Render
-+ Optimization of Project
-+ Optimization of Wwise
+      <version name="0.19-beta" author="Mantrika Sound" time="2026-02-04T00:00:00Z">
+        <changelog><![CDATA[v0.19-beta Changelog：
+
++ Wwise Tool: General optimizations and workflow improvements.
++ Compiler: Performance optimization, resulting in a 15%+ speed boost.
++ FX Search CHANGELOG_PLACEHOLDER Sample Broker: Enhanced security protocols and stability updates.
++ Render Queue: Fixed a color-coding bug related to Source Types.
 
 -- Mantrika Team
---2026.02.04]]></changelog>
+--2026.02.05
+]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.18-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.19-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.18-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.19-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.18-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.19-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
