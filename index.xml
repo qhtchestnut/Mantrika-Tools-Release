@@ -4,23 +4,23 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.19-beta" author="Mantrika Sound" time="2026-02-04T00:00:00Z">
-        <changelog><![CDATA[v0.19-beta Changelog：
+      <version name="0.20-beta" author="Mantrika Sound" time="2026-02-05T00:00:00Z">
+        <changelog><![CDATA[v0.20-beta Changelog：
 
-+ Wwise Tool: General optimizations and workflow improvements.
-+ Compiler: Performance optimization, resulting in a 15%+ speed boost.
-+ FX Search CHANGELOG_PLACEHOLDER Sample Broker: Enhanced security protocols and stability updates.
-+ Render Queue: Fixed a color-coding bug related to Source Types.
++ Wwise Tool: Added extensive debug information for improved troubleshooting.
++ Wwise: Introduced a new feature to import .wav files directly from selected containers in Wwise into the Reaper project.
++ Element Split: Performance optimizations and efficiency improvements.
++ Sample Broker: Added support for direct .wav file imports into the Ling Sampler.
++ Security: General security enhancements and optimizations.
 
 -- Mantrika Team
---2026.02.05
-]]></changelog>
+--2026.02.06]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.19-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.20-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.19-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.20-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.19-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.20-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
