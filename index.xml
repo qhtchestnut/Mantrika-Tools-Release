@@ -4,20 +4,21 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.22-beta" author="Mantrika Sound" time="2026-02-09T00:00:00Z">
-        <changelog><![CDATA[v0.22-beta Changelog:
+      <version name="0.23-beta" author="Mantrika Sound" time="2026-02-10T00:00:00Z">
+        <changelog><![CDATA[v0.23-beta Changelog:
 
-+ Sample Broker: Boosted performance by 40% and added a silence threshold adjustment feature.
-+ New Feature: Added Loudness Meter functionality.
++ Loudness: Optimized loudness values; added a feature to remember window position.
++ Wwise Import: Changed import action from indexing to copying files into the Reaper project resource directory.
++ Wwise Tools: Fixed compatibility issues with Wwise 2021.
 
 -- Mantrika Team
---2026.02.10]]></changelog>
+--2026.02.11]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.22-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.23-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.22-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.23-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.22-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.23-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
