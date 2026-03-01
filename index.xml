@@ -4,23 +4,20 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.27-beta" author="Mantrika Sound" time="2026-02-27T00:00:00Z">
-        <changelog><![CDATA[v0.27-beta Changelog：
+      <version name="0.28-beta" author="Mantrika Sound" time="2026-03-01T00:00:00Z">
+        <changelog><![CDATA[v0.28-beta Changelog:
 
-+ Loudness Meter: Added a comprehensive Clap management workflow.
-+ Auto Transient Detection: Optimized DSP algorithms and overall performance.
-+ Segment Switch: Optimized DSP algorithms for enhanced robustness; implemented filtering for potential fragmented items when using Random Switch.
-+ Spectral Forge: Reduced memory footprint and moved algorithm data processing to background threads; fixed bugs in the Cross algorithm.
-+ Startup Action: Fixed UI display bugs.
++ New: Preview Feature – Added audio preview support for Element Split and Spectral Forge.
++ Fixed – Resolved a potential thread safety issue when reading items.
 
 -- Mantrika Team
---2026.02.28]]></changelog>
+--2026.03.02]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.27-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.28-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.27-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.28-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.27-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.28-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
