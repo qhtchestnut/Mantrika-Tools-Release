@@ -4,22 +4,20 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.29-beta" author="Mantrika Sound" time="2026-03-02T00:00:00Z">
-        <changelog><![CDATA[v0.29-beta ChangeLog:
+      <version name="0.30-beta" author="Mantrika Sound" time="2026-03-03T00:00:00Z">
+        <changelog><![CDATA[v0.30-beta ChangeLog:
 
-+ Remove redundant startup self-test logs. (去掉冗余的启动时自测log)
-+ Clean up redundant logs for Wwise functionality. (去掉wwise功能的冗余log)
-+ Optimize loudness issues during Preview. (优化Preview时的响度问题)
-+ Decouple license management files. (授权管理文件解耦)
++ Preview optimization: Play directly via Reaper API, with the option to choose whether to play the track containing the current item;
++ Preview优化：通过Reaper API来直接播放，可以选择是否走当前item所在的Track；
 
 -- Mantrika Team
---2026.03.03]]></changelog>
+--2026.03.04]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.29-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.30-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.29-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.30-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.29-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.30-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
