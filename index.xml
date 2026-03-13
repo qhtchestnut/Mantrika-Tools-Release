@@ -4,24 +4,8 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.34-beta" author="Mantrika Sound" time="2026-03-12T00:00:00Z">
-        <changelog><![CDATA[v0.34-beta Changelog :
-
-Comprehensive code security and performance optimizations (ongoing).
-全面的代码安全与性能优化（进行中）。
-
-Refined Group button logic in the Preference window to ensure automatic application across all projects when enabled.
-在偏好设置窗口中优化了分组按钮逻辑，确保启用时能自动应用于所有工程。
-
-Fixed occasional crashes of the radial menu on macOS.
-修复了 macOS 上径向菜单偶尔崩溃的问题。
-
-Resolved an issue where certain UI elements would pop up automatically after REAPER was minimized.
-修复了 REAPER 最小化后某些界面元素会自动弹出的问题。
-
-Fixed potential process persistence issues during the shutdown sequence.
-修复了关机流程中可能存在的进程驻留问题。
-]]></changelog>
+      <version name="0.34-beta" author="Mantrika Sound" time="2026-03-13T00:00:00Z">
+        <changelog><![CDATA[Fixed Some Bug]]></changelog>
         
         <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.34-beta/reaper_MantrikaTools-x64.dll</source>
         
