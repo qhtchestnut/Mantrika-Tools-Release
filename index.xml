@@ -4,31 +4,16 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.35-beta" author="Mantrika Sound" time="2026-03-15T00:00:00Z">
-        <changelog><![CDATA[v0.35-beta ChangeLog:
+      <version name="0.36-beta" author="Mantrika Sound" time="2026-03-16T00:00:00Z">
+        <changelog><![CDATA[v0.36-beta ChangeLog:
 
-1. Shutdown Process Optimization: Ensures all resources are released correctly.
-关闭流程优化，资源正确释放；
-2. Render Queue Bug Fixes:
-  Fixed an issue where the user's Default Preset was not applied correctly when constructing multiple queues.
-  修复多个Queue构造时，没有正确应用用户Default Preset；
-  Fixed abnormal clearing of Region and Mirror caused by GUID changes.
-  修复region和mirror 因为guid变化导致的异常清空；
-3. Auto-Transient Detection: Fixed re-calculation issues caused by floating-point precision truncation of Markers.
-自动瞬态检测：修复Marker点的浮点数精度截断导致的重算；
-4. Grouping Preference: If the "Grouping" option is enabled in Preferences, it will now be automatically detected and enabled within every project.
-Preference中如果勾选了Grouping，则会在每一个工程中自动检测并开启；
-5. Optimization: Comprehensive performance and security enhancements across the entire codebase.
-全代码性能和安全性优化；
-
--- Mantrika Team
---2026-03.16]]></changelog>
+Just Fix Small Bugs;]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.35-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.36-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.35-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.36-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.35-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.36-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
