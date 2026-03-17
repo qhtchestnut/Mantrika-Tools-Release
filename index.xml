@@ -4,16 +4,21 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.36-beta" author="Mantrika Sound" time="2026-03-16T00:00:00Z">
-        <changelog><![CDATA[v0.36-beta ChangeLog:
+      <version name="0.37-beta" author="Mantrika Sound" time="2026-03-17T00:00:00Z">
+        <changelog><![CDATA[v0.37-beta :
 
-Just Fix Small Bugs;]]></changelog>
++ Phase Analyzer: Added a new algorithm for detecting peak energy levels.
++ LFO Manager: Fixed a crash bug; double-clicking now toggles the FX and modulation panels.
++ CreateFolder: Resolved issues regarding empty tracks and residual FX data.
+
+-- Mantrika Team
+--2026-03.18]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.36-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.37-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.36-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.37-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.36-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.37-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
