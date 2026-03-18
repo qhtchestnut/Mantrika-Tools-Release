@@ -4,21 +4,22 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.37-beta" author="Mantrika Sound" time="2026-03-17T00:00:00Z">
-        <changelog><![CDATA[v0.37-beta :
+      <version name="0.38-beta" author="Mantrika Sound" time="2026-03-18T00:00:00Z">
+        <changelog><![CDATA[v0.38-beta : 
 
-+ Phase Analyzer: Added a new algorithm for detecting peak energy levels.
-+ LFO Manager: Fixed a crash bug; double-clicking now toggles the FX and modulation panels.
-+ CreateFolder: Resolved issues regarding empty tracks and residual FX data.
+Phase Aligner: Optimized the visual identification for reference items.
+New Action: Added "Open selected item in Media Explorer/File Explorer."
+New Action Series: Added "Cleanup track" actions.
+LFO Manager: Integrated the launch action into the UI and refined behavioral details.
 
 -- Mantrika Team
---2026-03.18]]></changelog>
+--2026-03.19]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.37-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.38-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.37-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.38-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.37-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.38-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
