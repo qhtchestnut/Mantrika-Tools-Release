@@ -4,23 +4,21 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.40-beta" author="Mantrika Sound" time="2026-03-22T00:00:00Z">
-        <changelog><![CDATA[v0.40-beta :
+      <version name="0.41-beta" author="Mantrika Sound" time="2026-03-23T00:00:00Z">
+        <changelog><![CDATA[v0.41-beta :
 
-+ Flux: Added the Flux feature. It operates independently of REAPER's native mechanisms and supports LFO and Envelope modulation for FX parameters.
-+ Quick Render: Added Render-in-Place for selected items, featuring customizable preset rules.
-+ Render Queue: Now supports exporting a specific item directly from the Render Queue.
-+ UTF-8 Compatibility: Optimized compatibility for UTF-8 encoding.
-+ Auto Transient Detection: Optimized performance for the Automatic Transient Detection service.
++ Render Queue: Supports batch rendering of multiple selected items in the list.
++ Double Click: Added Ctrl/Cmd + Double-click on TCP (Track Control Panel) for smart selection. (Note: Requires rebinding under Mouse Modifiers in Preferences).
++ Underlying Optimization: Full-link UTF-8 optimization for the Windows platform.
 
 -- Mantrika Team
---2026-03.20]]></changelog>
+--2026-03.21]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.40-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.41-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.40-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.41-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.40-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.41-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
