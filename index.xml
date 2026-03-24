@@ -4,21 +4,37 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.41-beta" author="Mantrika Sound" time="2026-03-23T00:00:00Z">
-        <changelog><![CDATA[v0.41-beta :
+      <version name="0.42-beta" author="Mantrika Sound" time="2026-03-24T00:00:00Z">
+        <changelog><![CDATA[v0.42-beta Changelog:
 
-+ Render Queue: Supports batch rendering of multiple selected items in the list.
-+ Double Click: Added Ctrl/Cmd + Double-click on TCP (Track Control Panel) for smart selection. (Note: Requires rebinding under Mouse Modifiers in Preferences).
-+ Underlying Optimization: Full-link UTF-8 optimization for the Windows platform.
+1. Underlying UI Optimization: Reduced main thread intrusion for smoother performance.
+1. UI 底层优化：更少入侵主线程；
+
+2. Loudness: Added new Actions: Normalize to -23 LUFS and Match selected items' loudness to median.
+2. Loudness：新增Action：normalize to -23 LUFS、拉平选中的item响度值为中位数；
+
+3. Item Recognition: Enhanced target item detection with smart-skip capabilities. (Beneficiaries: Radial Menu and FX Search).
+3. Item识别：对目标item判断更精准，拥有智能跳过能力；受益者：Radial Menu和FX Search；
+
+4. Drag-and-Drop Optimization: Dragging into empty space below tracks or items will now intelligently create appropriate new tracks based on content. (Beneficiaries: Radial Menu, FX Search, and Sample Broker).
+4. 拖拽功能优化：对于轨道和item区域下方空白处，会根据内容智能新建合适的轨道；受益者：Radial Menu、FX
+
+5. Flux: Continued refinements to Envelope UI details.
+5. Flux：优化Envelope的ui交互细节
 
 -- Mantrika Team
---2026-03.21]]></changelog>
+--2026-03.22
+
+
+
+
+]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.41-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.42-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.41-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.42-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.41-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.42-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
