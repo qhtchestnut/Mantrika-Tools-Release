@@ -4,24 +4,21 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.45-beta" author="Mantrika Sound" time="2026-03-29T00:00:00Z">
-        <changelog><![CDATA[v0.45-beta Changelog : 
+      <version name="0.46-beta" author="Mantrika Sound" time="2026-03-30T00:00:00Z">
+        <changelog><![CDATA[v0.46-beta Changelog : 
 
-+ Selection Enhance: Performance optimizations and decoupled settings within Preferences.
-+ DissolveFolder: Refactored for improved logic and correctness.
-+ New: Added Adaptive Insert Track action.
-+ Create Folder: Bug fixes and performance improvements.
-+ New: Added Report Mono FX functionality.
-+ Project Manager: Removed automatic timestamps during backup; refined UI details.
++ Startup Action: Renamed to Action Automation; introduced a new Post Action feature.
++ Action: Added a new Smart Solo Track action.
++ Optimizations: Various UI/UX refinements and detail improvements.
 
 -- Mantrika Team
---2026-03.30]]></changelog>
+--2026-03.31]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.45-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.46-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.45-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.46-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.45-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.46-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
