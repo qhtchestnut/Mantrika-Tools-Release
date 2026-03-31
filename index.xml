@@ -4,21 +4,19 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.46-beta" author="Mantrika Sound" time="2026-03-30T00:00:00Z">
-        <changelog><![CDATA[v0.46-beta Changelog : 
-
-+ Startup Action: Renamed to Action Automation; introduced a new Post Action feature.
-+ Action: Added a new Smart Solo Track action.
-+ Optimizations: Various UI/UX refinements and detail improvements.
+      <version name="0.47-beta" author="Mantrika Sound" time="2026-03-31T00:00:00Z">
+        <changelog><![CDATA[v0.47-beta changelog :
++ Added adaptive track focus switching when an effect is inserted/loaded.
++ Optimized the precision of the Segment Switch algorithm.
 
 -- Mantrika Team
---2026-03.31]]></changelog>
+--2026-04.01]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.46-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.47-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.46-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.47-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.46-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.47-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
