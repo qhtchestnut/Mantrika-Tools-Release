@@ -4,19 +4,22 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.47-beta" author="Mantrika Sound" time="2026-03-31T00:00:00Z">
-        <changelog><![CDATA[v0.47-beta changelog :
-+ Added adaptive track focus switching when an effect is inserted/loaded.
-+ Optimized the precision of the Segment Switch algorithm.
+      <version name="0.48-beta" author="Mantrika Sound" time="2026-04-06T00:00:00Z">
+        <changelog><![CDATA[v0.48-beta Changelog: 
++ Continuous Action Optimization : Refined underlying logic and performance details for continuous-type actions.
++ Track Positioning Enhancements : Improved Track locating functionality; specific features now support "Center" or "Pin to Top" track views.
++ Hook Shortcut Management : Added a popup notification when the number of mounted Hook shortcuts exceeds 5.
++ Rename Feature Refactoring : Completely restructured the Rename tool, now offering two distinct modes: Simple and Advanced.
++ UI Bug Fixes : Resolved an issue regarding double-click behavior on the title bar.
 
 -- Mantrika Team
---2026-04.01]]></changelog>
+-- 2026-04.07]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.47-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.48-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.47-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.48-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.47-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.48-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
