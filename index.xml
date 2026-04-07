@@ -4,22 +4,25 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.48-beta" author="Mantrika Sound" time="2026-04-06T00:00:00Z">
-        <changelog><![CDATA[v0.48-beta Changelog: 
-+ Continuous Action Optimization : Refined underlying logic and performance details for continuous-type actions.
-+ Track Positioning Enhancements : Improved Track locating functionality; specific features now support "Center" or "Pin to Top" track views.
-+ Hook Shortcut Management : Added a popup notification when the number of mounted Hook shortcuts exceeds 5.
-+ Rename Feature Refactoring : Completely restructured the Rename tool, now offering two distinct modes: Simple and Advanced.
-+ UI Bug Fixes : Resolved an issue regarding double-click behavior on the title bar.
+      <version name="0.49-beta" author="Mantrika Sound" time="2026-04-07T00:00:00Z">
+        <changelog><![CDATA[v0.49-beta Changelog: 
+
+Project Manager:
++ Behavior Optimization: Modified double-click behavior to open folders.
++ New Features: Added "Add to Favorites" functionality; implemented side-pane synchronization (linked view) when opening a folder from the right panel.
++ RPP Detection: Added support for excluding specific paths during RPP (Reaper Project) file detection.
+
+Rename:
++ Bug Fix: Resolved an issue where the Enter key failed to trigger a secondary action/confirmation.
 
 -- Mantrika Team
--- 2026-04.07]]></changelog>
+-- 2026-04.08]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.48-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.49-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.48-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.49-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.48-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.49-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
