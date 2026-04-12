@@ -4,22 +4,26 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.51-beta" author="Mantrika Sound" time="2026-04-09T00:00:00Z">
-        <changelog><![CDATA[v0.51-beta Changelog : 
+      <version name="0.52-beta" author="Mantrika Sound" time="2026-04-12T00:00:00Z">
+        <changelog><![CDATA[v0.52-beta ChangeLog :
 
-+ Sample Broker: Added OS-level drag-and-drop. You can now drag audio samples directly into any application, including Slack, File Explorer, Soundminer Radium, and more.
-**Shortcut: Ctrl + Alt + Drag**
-
-+ Qi: Optimized randomization algorithms for a richer, more diverse auditory experience.
++ Wwise Tool: Core logic refactored to prioritize the Replace workflow; complete UI overhaul.
++ Architecture: Upgraded underlying framework to ensure zero crashes from REAPER version incompatibilities.
++ Mirror: Added auto-inheritance for region colors based on the parent Mirror track.
++ Segment Switch: Fully optimized algorithm to eliminate unusable audio fragments.
++ Qi: Enhanced randomization algorithm for greater variety.
++ Sample Broker: Added comprehensive state detection, improved OS drag-and-drop visuals, and integrated smart selection.
++ Loudness Meter: Optimized audio thread safety; implemented a custom loudness algorithm with refined playback detailing.
++ Selection Enhance: Streamlined performance by eliminating redundant API calls.
 
 -- Mantrika Team
--- 2026-04.10]]></changelog>
+-- 2026-04.11]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.51-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.52-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.51-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.52-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.51-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.52-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
