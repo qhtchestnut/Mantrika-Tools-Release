@@ -4,25 +4,21 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.54-beta" author="Mantrika Sound" time="2026-04-15T00:00:00Z">
-        <changelog><![CDATA[v0.54-beta :
+      <version name="0.55-beta" author="Mantrika Sound" time="2026-04-16T00:00:00Z">
+        <changelog><![CDATA[v0.55-beta :
 
-- About：Performance: Optimized initial loading speed.
+- Wwise：Functional Decoupling: Split Reload and Refresh logic; introduced support for CLI/Waapi mode switching；UX Improvements: Resolved stuttering issues during On/Off toggling and updated button icons to ASCII style.
 
-- Qi：Bug Fix: Fixed assertions during the initialization process；Optimization: Refined the initialization sequence；Database: Converted database loading to asynchronous mode.
-
-- WwiseTools：Initialization: Optimized the initialization loading order；Asynchronous Loading: Implemented asynchronous loading for Wwu and Bnk files；File Scanning: Optimized the underlying file scanning logic.
-
-- Region Flow；Performance: Enhanced UI/system response speed；Stability: Added boundary protection (edge-case handling) to prevent crashes or errors.
+- Region Flow：Performance Optimization: Enhanced overall system efficiency and responsiveness.
 
 -- Mantrika Team
--- 2026-04.16]]></changelog>
+-- 2026-04.17]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.54-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.55-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.54-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.55-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.54-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.55-beta/mantrika_sample_broker.clap</source>
       </version>
       
     </reapack>
