@@ -4,21 +4,27 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.55-beta" author="Mantrika Sound" time="2026-04-16T00:00:00Z">
-        <changelog><![CDATA[v0.55-beta :
+      <version name="0.56-beta" author="Mantrika Sound" time="2026-04-19T00:00:00Z">
+        <changelog><![CDATA[v0.56-beta
 
-- Wwise：Functional Decoupling: Split Reload and Refresh logic; introduced support for CLI/Waapi mode switching；UX Improvements: Resolved stuttering issues during On/Off toggling and updated button icons to ASCII style.
-
-- Region Flow：Performance Optimization: Enhanced overall system efficiency and responsiveness.
+- FX Search: Visual optimization;
+- Radial Menu: Completely eliminated any aliasing in drawing;
+- Wwise Replace: Major update, one-click wav replacement + Bnk generation;
+- Render Queue: Integrated with Wwise Replace;
+- Region flow: Significant performance improvement;
+- Trim item action: Switched to a version that preserves Fades;
+- Underlying event architecture fully optimized;
 
 -- Mantrika Team
--- 2026-04.17]]></changelog>
+-- 2026-04.20]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.55-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.56-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.55-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.56-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.55-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.56-beta/mantrika_sample_broker.clap</source>
+
+        <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.56-beta/MtkWwiseTools.exe</source>
       </version>
       
     </reapack>
