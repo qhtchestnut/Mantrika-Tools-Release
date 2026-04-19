@@ -53,6 +53,8 @@ jobs:
                   <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/UCS_Data.json</source>
                   
                   <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/mantrika_sample_broker.clap</source>
+
+                  <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/MtkWwiseTools.exe</source>
                 </version>
                 
               </reapack>
