@@ -4,24 +4,24 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.58-beta" author="Mantrika Sound" time="2026-04-23T00:00:00Z">
-        <changelog><![CDATA[v0.58-beta：
+      <version name="0.59-beta" author="Mantrika Sound" time="2026-04-26T00:00:00Z">
+        <changelog><![CDATA[v0.59-beta：
 
-- Wwise Replace：修复数据持久化和切换Project Tab时的数据错乱；
-- Import From Wwise：增加导入超过100个wav的弹窗提示（防呆）；严格按照wwise中的排序顺序导入reaper；
-- FX Search：窗口细节优化；
-- Auto Track Color：配色方案整体优化提升；
-- Region Flow：增加一个一键绑定的Action；
-- Simple Rename：变成大字版；
-- Qi：细节优化和改进；]]></changelog>
-        
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.58-beta/reaper_MantrikaTools-x64.dll</source>
-        
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.58-beta/UCS_Data.json</source>
-        
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.58-beta/mantrika_sample_broker.clap</source>
+- Ling：优化细节，新增若干Fx，新增PoolFade的功能。
+- WwiseReplace：优化Bnk无法持久化的问题。
+- ProjectManager：优化ui布局。
+- Qi：优化Undo细节、新增Global功能，修复若干bug。
 
-        <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.58-beta/MtkWwiseTools.exe</source>
+-- Mantrika Team
+-- 2026-04.27]]></changelog>
+        
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/reaper_MantrikaTools-x64.dll</source>
+        
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/UCS_Data.json</source>
+        
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/mantrika_sample_broker.clap</source>
+
+        <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/MtkWwiseTools.exe</source>
       </version>
       
     </reapack>
