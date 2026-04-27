@@ -4,24 +4,23 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.59-beta" author="Mantrika Sound" time="2026-04-26T00:00:00Z">
-        <changelog><![CDATA[v0.59-beta：
+      <version name="0.60-beta" author="Mantrika Sound" time="2026-04-27T00:00:00Z">
+        <changelog><![CDATA[v0.60-beta:
 
-- Ling：优化细节，新增若干Fx，新增PoolFade的功能。
-- WwiseReplace：优化Bnk无法持久化的问题。
-- ProjectManager：优化ui布局。
-- Qi：优化Undo细节、新增Global功能，修复若干bug。
+- MTK：修复浮点数导致的Release的bug
+- Qi：修复若干bug，优化undo速度，新增Fx的Depth
+- Render Queue：优化Region Flow配合的视觉标识；优化UX点击，联动wwise replace的逻辑改为队列等待
 
 -- Mantrika Team
--- 2026-04.27]]></changelog>
+-- 2026-04.28]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.60-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.60-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.60-beta/mantrika_sample_broker.clap</source>
 
-        <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.59-beta/MtkWwiseTools.exe</source>
+        <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.60-beta/MtkWwiseTools.exe</source>
       </version>
       
     </reapack>
