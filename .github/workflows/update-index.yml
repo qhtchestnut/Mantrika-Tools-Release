@@ -56,7 +56,6 @@ jobs:
 
                   <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/mantrika_ling.clap</source>
 
-                  <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/TAG_PLACEHOLDER/MtkWwiseTools.exe</source>
                 </version>
                 
               </reapack>
