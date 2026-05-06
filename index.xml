@@ -4,30 +4,27 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.62-beta" author="Mantrika Sound" time="2026-05-05T00:00:00Z">
-        <changelog><![CDATA[v0.62-beta ：
+      <version name="0.63-beta" author="Mantrika Sound" time="2026-05-06T00:00:00Z">
+        <changelog><![CDATA[v0.63-beta：
 
-- 1、Wwise Replace 完全优化行为，更高效；
-- 2、新增：Macro功能，一键全局宏功能；
-- 3、新增：Ling 采样器；
-- 4、新增：基于YIN算法的一键拉平item‘s pitch的action，对whoosh好用，对hit拉跨；
-- 5、Element Split：优化HPSS算法，增加软硬度参数；
-- 6、AdvanceRename：USC模式优化，整体布局页面调整；
-- 7、SimpleRename：UX、UI升级；
-- 8、Project Manager：新增修复FavorityCHANGELOG_PLACEHOLDERVirtual丢失rpp的功能（常见于换电脑、磁盘迁移时使用）；
-- 9、Sample Broker：修复 OS 拖拽路径下，手速太快会拖拽失败的问题；
-- 10、冗余内容清理，细节改进；
+- 1、Wwise Replace：
+    · 去掉不实用的CLI模式，不再需要 MtkWwiseTools.exe ；
+    · Wav替换方法改进，失败不会破坏Wwise wav文件；
+    · 稳定持久化wwise工程路径，增加Replace Only 按钮可以把wwise切到前台的可选功能； 
+    · 更新后需要重新选择一次Wwise工程路径；
+
+- 2、众多功能细节打磨和安全性改进；
 
 -- Mantrika Team
--- 2026-05.06]]></changelog>
+-- 2026-05.07]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.62-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.63-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.62-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.63-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.62-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.63-beta/mantrika_sample_broker.clap</source>
 
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.62-beta/mantrika_ling.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.63-beta/mantrika_ling.clap</source>
 
       </version>
       
