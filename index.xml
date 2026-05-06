@@ -29,7 +29,6 @@
 
         <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.62-beta/mantrika_ling.clap</source>
 
-        <source platform="win64" file="MantrikaTools Config/resource/MtkWwiseTools.exe">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.62-beta/MtkWwiseTools.exe</source>
       </version>
       
     </reapack>
