@@ -4,21 +4,26 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.64-beta" author="Mantrika Sound" time="2026-05-07T00:00:00Z">
-        <changelog><![CDATA[v0.64-beta：
+      <version name="0.65-beta" author="Mantrika Sound" time="2026-05-10T00:00:00Z">
+        <changelog><![CDATA[v0.65-beta：
 
-- 1、Wwise Replace：切wwise 窗口至前台时的bug、优化工程路径配置按钮；
+- 1、Wwise Replace：修复切换Wwise到前台的bug；
+- 2、Macro：新增反向按钮；
+- 3、Element Split：新增两个分离算法，更适合tonal；优化Quick模式的UX；
+- 4、Element 、Spectral：滑块可以右键重置到默认值；
+- 5、ProScan：优化交互细节，修复潜在bug；
+- 6、众多细节改进；
 
 -- Mantrika Team
--- 2026-05.08]]></changelog>
+-- 2026-05.11]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.64-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.65-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.64-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.65-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.64-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.65-beta/mantrika_sample_broker.clap</source>
 
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.64-beta/mantrika_ling.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.65-beta/mantrika_ling.clap</source>
 
       </version>
       
