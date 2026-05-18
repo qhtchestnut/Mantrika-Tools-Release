@@ -4,29 +4,24 @@
   <category name="Extensions/Mantrika Tools">
     <reapack name="Mantrika Tools.ext" type="extension" desc="Mantrika Tools for REAPER">
       
-      <version name="0.69-beta" author="Mantrika Sound" time="2026-05-17T00:00:00Z">
-        <changelog><![CDATA[v0.69-beta ：
+      <version name="0.70-beta" author="Mantrika Sound" time="2026-05-18T00:00:00Z">
+        <changelog><![CDATA[v0.70-beta：
 
-- 1、Render Queue：点击Render 按钮以后，主动先把焦点还给REAPER，避免抢主线程消息卡顿；
-- 2、Sample Broker：：提示文本状态优化，状态机新增一个Rendering 状态；会显示导出采样率；
-- 3、MacOS：统一标题栏视觉效果；
-- 4、Automation item controller：修复因为动态窗口size导致的画面撕裂；
-- 5、UI：修复AMD显卡上的shutdown时断言崩溃；
-- 6、Advance Rename：Remove/Tirm的Rule，Range模式中，把1作为起始位；优化Preset窗口；
-- 7、Proscan：修复各项bug；
-- 8、Ling：优化MPE控制细节，导出行为更健壮；修复ui在切换project tab时状态错乱、语义不明确的问题
-- 9、Macro：优化Target双击重置，从归零的到默认0.5；做安全保护，拦截对MacroJsfx的控制；
+- 1、UI框架：增加Win10 兼容性；修复bug；增加失焦状态显示；
+- 2、Simple Rename：增加主动关闭的按钮；
+- 3、Radial Menu CHANGELOG_PLACEHOLDER FX Search：鼠标悬停会让文本或者子菜单块变大；
+- 4、Sample Broker：优化汉堡菜单和小猫的交互配合，减少视觉和操作干扰；
 
 -- Mantrika Team
--- 2026-05.18]]></changelog>
+-- 2026-05.19]]></changelog>
         
-        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.69-beta/reaper_MantrikaTools-x64.dll</source>
+        <source platform="win64" file="reaper_MantrikaTools-x64.dll">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.70-beta/reaper_MantrikaTools-x64.dll</source>
         
-        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.69-beta/UCS_Data.json</source>
+        <source platform="all" file="MantrikaTools Config/UCS_Data.json">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.70-beta/UCS_Data.json</source>
         
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.69-beta/mantrika_sample_broker.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_sample_broker.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.70-beta/mantrika_sample_broker.clap</source>
 
-        <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.69-beta/mantrika_ling.clap</source>
+        <source platform="win64" file="MantrikaTools Config/resource/mantrika_ling.clap">https://github.com/qhtchestnut/Mantrika-Tools-Release/releases/download/v0.70-beta/mantrika_ling.clap</source>
 
       </version>
       
